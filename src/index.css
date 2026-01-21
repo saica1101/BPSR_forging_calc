@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #121212;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Custom styles for the calculator */
+.input-blue {
+  @apply bg-blue-950/60 border-blue-500 text-blue-300 font-bold focus:border-blue-400 focus:ring-blue-400 placeholder:text-white/70;
+}
+
+.input-purple {
+  @apply bg-purple-950/60 border-purple-500 text-purple-300 font-bold focus:border-purple-400 focus:ring-purple-400 placeholder:text-white/70;
+}
+
+.output-neutral {
+  @apply bg-neutral border-base-300 text-white font-bold;
+}
+
+.select-green {
+  @apply bg-green-950/40 border-green-600 text-green-400 font-bold focus:border-green-400 focus:ring-green-400;
+}
+
+/* Ensure dropdown menu is solid and readable */
+select.select {
+  @apply bg-base-200 text-base-content opacity-100;
+}
+
+/* Compact layout fixes */
+.calculator-card {
+  @apply bg-base-200 shadow-xl border border-base-300 overflow-visible;
+}
