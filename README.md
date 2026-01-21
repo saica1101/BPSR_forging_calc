@@ -69,7 +69,7 @@ GitHub Pages 上で動作し、インストール不要で利用できます。
 
 ## 🌐公開ページ
 **GitHub Pages**
-(BPSR forging calc)[]
+[BPSR forging calc](https://saica1101.github.io/BPSR_forging_calc/)
 
 ---
 
