@@ -93,4 +93,4 @@ GitHub Pages 上で動作し、インストール不要で利用できます。
 - 本ソフトウェアは改変・再配布可能です
 - ただし、改変した場合は **必ずソースコードを公開**してください
 - また、**本リポジトリをフォーク元として明示**する必要があります
-詳細は`[LICENSE](https://github.com/saica1101/BPSR_forging_calc/blob/main/LICENSE)`ファイルを参照してください。
+詳細は[LICENSE](https://github.com/saica1101/BPSR_forging_calc/blob/main/LICENSE)ファイルを参照してください。
