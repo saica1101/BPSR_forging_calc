@@ -5,7 +5,7 @@ function App() {
   const [activeTab, setActiveTab] = useState(0);
 
   const materials = [
-    { title: "謎の金属", raw1: "ブルーリッチ鉱石", raw2: "ブルー高純度鉱石" },
+    { title: "謎の金属", raw1: "バルーリッチ鉱石", raw2: "バルー高純度鉱石" },
     { title: "輝光石", raw1: "アズートリッチ鉱石", raw2: "アズート高純度鉱石" },
     { title: "精錬石", raw1: "ルナーリッチ鉱石", raw2: "ルナー高純度鉱石" }
   ];
